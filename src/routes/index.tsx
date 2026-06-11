@@ -328,7 +328,7 @@ function ContactCard({
 }) {
   const content = (
     <div
-      className={`flex flex-col items-center rounded-2xl border p-6 text-center transition-all ${
+      className={`flex h-full flex-col items-center rounded-2xl border p-6 text-center transition-all ${
         highlight
           ? "border-accent/30 bg-accent/5 hover:shadow-lg hover:shadow-accent/10"
           : "border-border bg-card hover:border-accent/20 hover:shadow-md"
@@ -346,7 +346,7 @@ function ContactCard({
 
   if (href) {
     return (
-      <a href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noopener noreferrer" : undefined}>
+      <a href={href} className="h-full" target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noopener noreferrer" : undefined}>
         {content}
       </a>
     );
