@@ -229,7 +229,7 @@ function Index() {
           <div className="mt-12 overflow-hidden rounded-2xl border border-border shadow-sm">
             <iframe
               title="Mapa"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.0!2d14.259!3d50.515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDMwJzU0LjAiTiAxNMKwMTUnMzIuNCJF!5e0!3m2!1scs!2scz!4v1"
+              src="https://maps.google.com/maps?q=Tov%C3%A1rn%C3%AD%2020%2F2%2C%20410%2002%20Lovosice&hl=cs&z=16&output=embed"
               width="100%"
               height="360"
               style={{ border: 0 }}
