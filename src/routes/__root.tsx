@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Výroba autoklíčů – Vladimír Broul | Lovosice" },
       { name: "description", content: "Zámečnická pohotovost, výroba autoklíčů s čipem, broušení nástrojů, otevírání dveří. Tovární 20/2, Lovosice. Tel: +420 724 945 440." },
       { name: "author", content: "Vladimír Broul" },
-      { property: "og:title", content: "Výroba autoklíčů – Vladimír Broul" },
-      { property: "og:description", content: "Zámečnická pohotovost, výroba autoklíčů, broušení nástrojů v Lovosicích." },
+      { property: "og:title", content: "Výroba autoklíčů – Vladimír Broul | Lovosice" },
+      { property: "og:description", content: "Zámečnická pohotovost, výroba autoklíčů s čipem, broušení nástrojů, otevírání dveří. Tovární 20/2, Lovosice. Tel: +420 724 945 440." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Výroba autoklíčů – Vladimír Broul | Lovosice" },
+      { name: "twitter:description", content: "Zámečnická pohotovost, výroba autoklíčů s čipem, broušení nástrojů, otevírání dveří. Tovární 20/2, Lovosice. Tel: +420 724 945 440." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3e00a3fa-67fa-49d8-a2e6-cfd0f28ce496/id-preview-9a41fa30--65d14520-3378-4621-9f8c-10bc5dceef05.lovable.app-1781196361329.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/3e00a3fa-67fa-49d8-a2e6-cfd0f28ce496/id-preview-9a41fa30--65d14520-3378-4621-9f8c-10bc5dceef05.lovable.app-1781196361329.png" },
     ],
     links: [
       {
